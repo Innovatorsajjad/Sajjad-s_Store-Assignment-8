@@ -1,6 +1,6 @@
 [
   {
-    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6tyhead",
+    "id": "1",
     "category": "Phone",
     "name": "Iphone XR",
     "seller": "Apple",
@@ -13,7 +13,7 @@
     "quantity": 0
   },
   {
-    "id": "13cbc7ed-a61b-4883-9d42-82hhyhd7d8642b86",
+    "id": "2",
     "category": "Phone",
     "name": "Iphone 13",
     "seller": "Apple",
@@ -26,7 +26,7 @@
     "quantity": 0
   },
   {
-    "id": "307f166f-1d04-4573-bc3ofkj7-2f461ea9d4f7",
+    "id": "3",
     "category": "Phone",
     "name": "Iphone 11",
     "seller": "Apple",
@@ -38,7 +38,7 @@
     "shipping": 1,
     "quantity": 0
   },  {
-    "id": "124e13b9-2d54-gopo04b2f-a74d-a77b362d6ead",
+    "id": "4",
     "category": "Phone",
     "name": "Samsung Fold",
     "seller": "Samsung",
@@ -51,7 +51,7 @@
     "quantity": 0
   },
   {
-    "id": "13cbc7ed-a61b-4883-9d4ljstr2-82d7d8642b86",
+    "id": "5",
     "category": "Phone",
     "name": "Galaxy-S22-Plus",
     "seller": "Samsung",
@@ -64,7 +64,7 @@
     "quantity": 0
   },
   {
-    "id": "307f166f-1d04-4573-bc37-2futb461ea9d4f7",
+    "id": "6",
     "category": "Phone",
     "name": "Galaxy M32 5G",
     "seller": "Samsung",
@@ -76,7 +76,7 @@
     "shipping": 1,
     "quantity": 0
   },  {
-    "id": "124e13b9-2d54-4b2f-a74d-a77bfrb362d6ead",
+    "id": "7",
     "category": "Phone",
     "name": "Redmi 10",
     "seller": "Xiomi",
@@ -89,7 +89,7 @@
     "quantity": 0
   },
   {
-    "id": "13cbc7ed-a61b-4883-9d42ghytu-82d7d8642b86",
+    "id": "8",
     "category": "Phone",
     "name": "Note 10 pro",
     "seller": "Xiomi",
@@ -102,7 +102,7 @@
     "quantity": 0
   },
   {
-    "id": "307f166f-1d04-4573-bc3sw7-2f461ea9d4f7",
+    "id": "9",
     "category": "Phone",
     "name": "Redmi K20 pro",
     "seller": "Xiomi",
@@ -115,7 +115,7 @@
     "quantity": 0
   },
   {
-    "id": "124e13b9-2d54-4b2f-a74d-a77b3bo62d6ead",
+    "id": "10",
     "category": "Phone",
     "name": "Oneplus Nord CE",
     "seller": "Oneplus",
@@ -128,7 +128,7 @@
     "quantity": 0
   },
   {
-    "id": "13cbc7ed-a61b-4883-9d42ytuio-82d7d8642b86",
+    "id": "11",
     "category": "Phone",
     "name": "Oneplus 9R",
     "seller": "Oneplus",
@@ -141,7 +141,7 @@
     "quantity": 0
   },
   {
-    "id": "307f166f-1d04-4573-bc37-2fQy461ea9d4f7",
+    "id": "12",
     "category": "Phone",
     "name": "Oneplus 7T",
     "seller": "Oneplus",

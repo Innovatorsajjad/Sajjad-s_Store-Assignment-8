@@ -7,16 +7,16 @@ const Product = ({handleAddToCart,product}) => {
     const{name,img,seller,price,ratings}= product;
 
     return (
-        <div class="col">
-    <div class="card single_card">
-      <img src={img}class="card-img-top" alt="..."/>
-      <div class="card- text-center">
-        <h2 class="card-title">{name}</h2>
-        <h5 class="card-text"> Saller: {seller} </h5>
+        <div className="col">
+    <div className="card single_card">
+      <img src={img}className="card-img-top" alt="..."/>
+      <div className="card- text-center">
+        <h2 className="card-title">{name}</h2>
+        <h5 className="card-text"> Saller: {seller} </h5>
         <h6>Price : ${price}</h6>
       </div>
-      <small class="text-muted">Ratings : {ratings} stars</small>
-      <div class="">
+      <small className="text-muted">Ratings : {ratings} stars</small>
+      <div >
         <button onClick={ ()=> handleAddToCart (product)} className='buy_now_Button w-100 text-light' >
            <a href="#">Buy Now  
            <FontAwesomeIcon icon={faShoppingCart} ></FontAwesomeIcon></a>

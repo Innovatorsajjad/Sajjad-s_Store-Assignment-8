@@ -17,6 +17,9 @@ const Shop = () => {
         const tryLuck = (Math.floor(Math.random() * carts.length));
         setFindOne(carts[tryLuck]?.name);
     }
+    const clearPhone =()=>{
+        setCart([])
+    }
 
     const handleAddToCart =(product)=>{
         
@@ -40,7 +43,7 @@ const Shop = () => {
                 <h5 className=''>Order Summery...</h5>
                  {
                      carts.map(cart=>
-                        <div className="cart_slider d-flex text-center align-items-center">
+                        <div key={cart.id} className="cart_slider d-flex text-center align-items-center">
                             <img className='w-25' src={cart.img} alt="" />
                              <h4>{cart.name}</h4>
                         </div>
@@ -49,7 +52,7 @@ const Shop = () => {
                  <div className="btn_group text-center">
                      <h4 className='text-light mt-5'>{findOne}</h4>
                  <button onClick={()=>findAPhone(carts)} className='mb-3 mt-3 color_button'>Chose One for me</button>
-                 <button className='color_button'>Clear All</button>
+                 <button onClick={clearPhone} className='color_button'>Clear All</button>
                  </div>
                 </div>
              </div>
