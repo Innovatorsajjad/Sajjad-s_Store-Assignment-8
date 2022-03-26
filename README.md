@@ -1,7 +1,7 @@
 # Sajjad's store
 
- [Private Repo link](https://sajjads-store.netlify.app/).
+ #[Private Repo link](https://sajjads-store.netlify.app/)
 
 ## Link is here...
-[https://sajjads-store.netlify.app/]
+ Click here to Create private repo : https://sajjads-store.netlify.app/
 
