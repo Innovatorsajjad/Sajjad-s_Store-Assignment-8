@@ -6,5 +6,20 @@
 .buy_now_Button{
     border: none;
     background: tomato;
+    border: 1px solid tomato;
     padding: 7px 0;
+    transition: .5s;
+}
+.buy_now_Button a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+.buy_now_Button:hover{
+    background-color: transparent;
+    border:1px solid tomato;
+}
+.buy_now_Button:hover a {
+    color: tomato;
 }

@@ -13,7 +13,7 @@ const Product = (props) => {
       </div>
       <small class="text-muted">Ratings : {ratings} stars</small>
       <div class="">
-        <button className='buy_now_Button w-100 text-light' >Buy Now</button>
+        <button className='buy_now_Button w-100 text-light' > <a href="#">Buy Now</a> </button>
       </div>
     </div>
   </div>
