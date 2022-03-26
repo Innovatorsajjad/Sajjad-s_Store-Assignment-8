@@ -38,7 +38,7 @@ const Shop = () => {
              ></Product>)
          } 
         </div>
-            <div className=" col-md-2 bg-info ">
+            <div className=" col-md-2 side_controller ">
                 <div className="inner_text pt-5">
                 <h5 className=''>Order Summery...</h5>
                  {
