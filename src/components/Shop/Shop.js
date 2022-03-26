@@ -5,7 +5,7 @@ import "./Shop.css"
 const Shop = () => {
 
     const[products,setProducts]=useState([]);
-    const [cart,setCart]=useState([]);
+    const [carts,setCart]=useState([]);
     useEffect(()=>{
         fetch ("products.json")
         .then(Response=>Response.json())
@@ -13,7 +13,7 @@ const Shop = () => {
     },[])
     const handleAddToCart =(product)=>{
         
-        const newCart=[...cart,product]
+        const newCart=[...carts,product]
         setCart(newCart)
       }
     return (
@@ -31,7 +31,14 @@ const Shop = () => {
             <div className=" col-md-2 bg-info ">
                 <div className="inner_text pt-5">
                 <h5 className=''>Order Summery...</h5>
-                 
+                 {
+                     carts.map(cart=>
+                        <div className="cart_slider d-flex text-center align-items-center">
+                            <img className='w-25' src={cart.img} alt="" />
+                             <h4>{cart.name}</h4>
+                        </div>
+                        )
+                 }
                  <div className="btn_group text-center">
                  <button className='mb-3 mt-3 color_button'>Chose One for me</button>
                  <button className='color_button'>Clear All</button>
