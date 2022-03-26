@@ -6,11 +6,18 @@ const Shop = () => {
 
     const[products,setProducts]=useState([]);
     const [carts,setCart]=useState([]);
+    const[findOne,setFindOne]=useState([]);
     useEffect(()=>{
         fetch ("products.json")
         .then(Response=>Response.json())
         .then(data=>setProducts(data))
-    },[])
+    },[]);
+ 
+    const findAPhone =(carts)=>{
+        const tryLuck = (Math.floor(Math.random() * carts.length));
+        setFindOne(carts[tryLuck]?.name);
+    }
+
     const handleAddToCart =(product)=>{
         
         const newCart=[...carts,product]
@@ -40,7 +47,8 @@ const Shop = () => {
                         )
                  }
                  <div className="btn_group text-center">
-                 <button className='mb-3 mt-3 color_button'>Chose One for me</button>
+                     <h4 className='text-light mt-5'>{findOne}</h4>
+                 <button onClick={()=>findAPhone(carts)} className='mb-3 mt-3 color_button'>Chose One for me</button>
                  <button className='color_button'>Clear All</button>
                  </div>
                 </div>
