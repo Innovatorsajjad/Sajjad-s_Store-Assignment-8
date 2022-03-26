@@ -13,7 +13,7 @@ const Product = ({handleAddToCart,product}) => {
       <div class="card- text-center">
         <h2 class="card-title">{name}</h2>
         <h5 class="card-text"> Saller: {seller} </h5>
-        <h6>Price : {price}</h6>
+        <h6>Price : ${price}</h6>
       </div>
       <small class="text-muted">Ratings : {ratings} stars</small>
       <div class="">

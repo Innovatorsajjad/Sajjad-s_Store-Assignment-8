@@ -1,0 +1,14 @@
+.color_button{
+    border: none;
+    background: #000;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: .5s;
+}
+.color_button:hover{
+    background-color: transparent;
+    color: black;
+
+}

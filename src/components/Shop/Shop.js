@@ -28,8 +28,15 @@ const Shop = () => {
              ></Product>)
          } 
         </div>
-            <div className=" col-md-2">
-                <h3>Cart Name = {cart.length}</h3>
+            <div className=" col-md-2 bg-info ">
+                <div className="inner_text pt-5">
+                <h5 className=''>Order Summery...</h5>
+                 
+                 <div className="btn_group text-center">
+                 <button className='mb-3 mt-3 color_button'>Chose One for me</button>
+                 <button className='color_button'>Clear All</button>
+                 </div>
+                </div>
              </div>
        </div>
         </div>

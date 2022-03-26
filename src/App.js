@@ -1,3 +1,5 @@
+
+import { Accordion } from 'react-bootstrap';
 import './App.css';
 import Header from './components/Header/Header';
 import Shop from './components/Shop/Shop';
