@@ -1,3 +1,7 @@
-/* .product img{
-    width: 286px;
-} */
+.single_card{
+    position: relative;
+}
+.card-footer button{
+    position: absolute;
+    bottom: 0;
+}

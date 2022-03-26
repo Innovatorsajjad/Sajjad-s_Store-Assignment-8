@@ -1,18 +1,4 @@
-.nav{
-    height: 80px;
-    background-color:lightgray;
-      display: flex;
-     align-items: center;
-     justify-content: center;
-}
-.tittleName{
-    color: rgb(81, 196, 235);
-    
-     margin-top: 0;
-  
-
-}
 .colorName{
     color: tomato;
-    font-size: 32px;
+    font-size: 50px;
 }
