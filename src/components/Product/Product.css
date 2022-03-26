@@ -1,7 +1,10 @@
-.single_card{
-    position: relative;
+.card-img-top{
+    margin:0 auto;
+
+    height: 300px;
 }
-.card-footer button{
-    position: absolute;
-    bottom: 0;
+.buy_now_Button{
+    border: none;
+    background: tomato;
+    padding: 7px 0;
 }
